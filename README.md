@@ -11,29 +11,29 @@ fundamentales para destacar una navegación fluida para el usuario
 Las etiquetas mas utilizadas son:  
 
 - <!doctype>: Declara el tipo de documento (HTML5). 
-<html> y </html>: Envuelven todo el contenido de la página web. 
-<head> y </head>: Contiene metadatos (información no visible). 
-<title> y </title>: Define el título de la página (en la pestaña del navegador). 
-<body> y </body>: Contiene el contenido visible de la página. 
-<h1> ... <h6>: Define encabezados, siendo <h1> el más importante. 
-<p> y </p>: Define un párrafo de texto. 
-<header>: Cabecera de la página (típicamente con el logo o título). 
-<footer>: Pie de página (con información como derechos de autor). 
-<nav>: Sección de navegación (enlaces de menú). 
-<main>: Contenido principal de la página. 
-<form>: Define un formulario para enviar datos. 
-<input>: Campo para ingresar datos en un formulario. 
-<label>: Define una etiqueta para un campo de formulario. 
-<font> y </font>: Define el estilo de la fuente (obsoleta en HTML5). 
-<strong> y </strong>: Resalta texto en negrita (para énfasis semántico). 
-<br>: Inserta un salto de línea. 
-<nobr>: Evita el salto de línea en el texto (obsoleto). 
-<p align="...">: Alinea un párrafo (obsoleto, se recomienda usar CSS). 
-<ul>: Define una lista no ordenada (con viñetas). 
-<ol>: Define una lista ordenada (numerada). 
-<li>: Define un ítem dentro de una lista. 
-<a> y </a>: Crea un enlace. 
-<img>: Inserta una imagen.  
+- <html> y </html>: Envuelven todo el contenido de la página web. 
+- <head> y </head>: Contiene metadatos (información no visible). 
+- <title> y </title>: Define el título de la página (en la pestaña del navegador). 
+- <body> y </body>: Contiene el contenido visible de la página. 
+- <h1> ... <h6>: Define encabezados, siendo <h1> el más importante. 
+- <p> y </p>: Define un párrafo de texto. 
+- <header>: Cabecera de la página (típicamente con el logo o título). 
+- <footer>: Pie de página (con información como derechos de autor). 
+- <nav>: Sección de navegación (enlaces de menú). 
+- <main>: Contenido principal de la página. 
+- <form>: Define un formulario para enviar datos. 
+- <input>: Campo para ingresar datos en un formulario. 
+- <label>: Define una etiqueta para un campo de formulario. 
+- <font> y </font>: Define el estilo de la fuente (obsoleta en HTML5). 
+- <strong> y </strong>: Resalta texto en negrita (para énfasis semántico). 
+- <br>: Inserta un salto de línea. 
+- <nobr>: Evita el salto de línea en el texto (obsoleto). 
+- <p align="...">: Alinea un párrafo (obsoleto, se recomienda usar CSS). 
+- <ul>: Define una lista no ordenada (con viñetas). 
+- <ol>: Define una lista ordenada (numerada). 
+- <li>: Define un ítem dentro de una lista. 
+- <a> y </a>: Crea un enlace. 
+- <img>: Inserta una imagen.  
 
 # 3 ¿Qué es un atributo de una etiqueta HTML y menciona los más comunes?  
 - Un atributo es una característica adicional que proporciona información sobre el 
@@ -42,13 +42,13 @@ etiqueta de apertura y generalmente se componen de un nombre y su valor, Se util
 configurar o modificar comportamientos de la etiqueta que pertenece.
 
 - Id =" ": Para identificar un elemento único. 
-class =" ": para Identificador de varios elementos. 
-style =" ": Para darle un estilo al elemento. 
-alt=" ": Proporciona un texto alternativo para elementos multimedia, como imágenes. 
-href =" ": Para establecer URL de destino de un enlace. 
-height =" ": Para determinar altura. 
-width =" ": Para determinar ancho. 
-src=" ": Para especificar la fuente de imágenes. 
+- class =" ": para Identificador de varios elementos. 
+- style =" ": Para darle un estilo al elemento. 
+- alt=" ": Proporciona un texto alternativo para elementos multimedia, como imágenes. 
+- href =" ": Para establecer URL de destino de un enlace. 
+- height =" ": Para determinar altura. 
+- width =" ": Para determinar ancho. 
+- src=" ": Para especificar la fuente de imágenes. 
 
 # 4 ¿Qué es CSS y cómo se utiliza para el diseño web? 
 - CSS “hojas de estilo en cascada” Básicamente, es un lenguaje que maneja el diseño y 
@@ -77,28 +77,28 @@ animación, estas propiedades son esenciales para dar estilo a elementos como im
 texto. 
 
 - Las más comunes son: 
-color: Cambia el color del texto. 
-font-size: Ajusta el tamaño de la fuente. 
-background-color: Define el color de fondo de un elemento. 
-margin: Controla el espacio exterior entre elementos. 
-padding: Define el espacio interior dentro de un elemento. 
-border: Añade un borde alrededor de un elemento. 
-display: Establece cómo se muestra un elemento (por ejemplo, bloque o en línea). 
-text-align: Alinea el texto dentro de un contenedor. 
-width y height: Establecen el tamaño de un elemento. 
-position: Controla la ubicación de un elemento en la página. 
-font-family: Define la tipografía del texto. 
-line-height: Establece la altura de la línea de texto. 
-text-transform: Cambia la capitalización del texto (mayúsculas, minúsculas, etc.). 
-font-weight: Ajusta el grosor de la fuente (normal, negrita, etc.). 
-opacity: Controla la transparencia de un elemento. 
-z-index: Controla el orden de apilamiento de los elementos (quién queda encima de 
+- color: Cambia el color del texto. 
+- font-size: Ajusta el tamaño de la fuente. 
+- background-color: Define el color de fondo de un elemento. 
+- margin: Controla el espacio exterior entre elementos. 
+- padding: Define el espacio interior dentro de un elemento. 
+- border: Añade un borde alrededor de un elemento. 
+- display: Establece cómo se muestra un elemento (por ejemplo, bloque o en línea). 
+- text-align: Alinea el texto dentro de un contenedor. 
+- width y height: Establecen el tamaño de un elemento. 
+- position: Controla la ubicación de un elemento en la página. 
+- font-family: Define la tipografía del texto. 
+- line-height: Establece la altura de la línea de texto. 
+- text-transform: Cambia la capitalización del texto (mayúsculas, minúsculas, etc.). 
+- font-weight: Ajusta el grosor de la fuente (normal, negrita, etc.). 
+- opacity: Controla la transparencia de un elemento. 
+- z-index: Controla el orden de apilamiento de los elementos (quién queda encima de 
 quién). 
-overflow: Controla lo que sucede cuando el contenido de un elemento se desborda 
+- overflow: Controla lo que sucede cuando el contenido de un elemento se desborda 
 (como ocultarlo o mostrar barras de desplazamiento). 
 border-radius: Redondea las esquinas de un elemento. 
-box-shadow: Añade sombras a un elemento. 
-transform: Permite aplicar transformaciones (rotar, escalar, mover) a un elemento. 
+- box-shadow: Añade sombras a un elemento. 
+- transform: Permite aplicar transformaciones (rotar, escalar, mover) a un elemento. 
 
 # 6 ¿Qué es un selector en CSS y cuales tipos existen? 
 los selectores nos ayudan a indicar el elemento sobre el que se van a aplicar los estilos. Los selectores pueden apuntar a elementos específicos, clases, identificadores o incluso 
@@ -151,19 +151,19 @@ dinámicamente.
 - Los tipos primitivos en JavaScript son aquellos valores que no son un objeto y tampoco tienen métodos. Además, los tipos primitivos son valores inmutables (no se pueden modificar). 
 
 - String: Representa: Una secuencia de caracteres (texto). 
-Sintaxis: 'texto' o "texto" 
-Number: Representa: Números (enteros y decimales). 
-Sintaxis: 123 o 3.14 
-BigInt: Representa: Números enteros grandes. 
-Sintaxis: 1234567890123456789012345678901234567890n 
-Boolean: Representa: Un valor lógico, true o false. 
-Sintaxis: true o false 
-Undefined: Representa: Una variable que ha sido declarada pero no tiene valor asignado. 
-Sintaxis: let x; (sin valor asignado) 
-Null: Representa: La ausencia intencional de valor. 
-Sintaxis: null 
-Symbol:Representa: Un valor único e inmutable. 
-Sintaxis: Symbol('descripcion') 
+- Sintaxis: 'texto' o "texto" 
+- Number: Representa: Números (enteros y decimales). 
+- Sintaxis: 123 o 3.14 
+- BigInt: Representa: Números enteros grandes. 
+- Sintaxis: 1234567890123456789012345678901234567890n 
+- Boolean: Representa: Un valor lógico, true o false. 
+- Sintaxis: true o false 
+- Undefined: Representa: Una variable que ha sido declarada pero no tiene valor asignado. 
+- Sintaxis: let x; (sin valor asignado) 
+- Null: Representa: La ausencia intencional de valor. 
+- Sintaxis: null 
+- Symbol:Representa: Un valor único e inmutable. 
+- Sintaxis: Symbol('descripcion') 
 
 # 9 ¿Cómo funcionan las estructuras de control de flujo como if, else, switch y bucles en JavaScript? 
 
