@@ -1,22 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- Indica al navegador que este documento usa HTML5 -->
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Mi Primera Pagina </title>
-    <link rel="stylesheet" href="css/estilos.css">
-    
+  <meta charset="UTF-8">
+  <!-- Define el conjunto de caracteres como UTF-8 para admitir caracteres especiales -->
+  <title>Mi Portafolio Web</title>
+  <!-- Título que se muestra en la pestaña del navegador -->
+  <link rel="stylesheet" href="css/estilos.css">
+  <!-- Enlaza el archivo CSS externo para aplicar estilos -->
 </head>
 <body>
-    <h1>Kevin Arley Añazco Imbachi</h1>
 
+  <div class="container">
+    <!-- Encabezado principal de la página -->
+    <header>
+      <h1>Kevin Añazco - Desarrollador Web</h1>
+      <!-- Menú de navegación principal -->
+      <nav>
+        <ul>
+          <li><a href="">Acerca de mí</a></li>
+          <li><a href="">Proyectos</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <p>Soy estudiante de Tecnología en Sistemas de Información en la Institución Universitaria Antonio José Camacho. Tengo 22 años y actualmente me encuentro cursando el sexto semestre.</p>
+    <!-- Contenido principal de la página -->
+    <main>
 
-    <p>Esta es mi red social: <a href="https://www.instagram.com/kevin__776?igsh=bmF1MHVlZ2VzbDFr" target="_blank">Instagram</a></p>
+      <!-- Sección sobre el autor -->
+      <section id="acerca">
+        <h2>Acerca de mí</h2>
+        <p>Soy un desarrollador web con pasión por crear sitios rápidos, accesibles y visualmente atractivos. Trabajo con HTML, CSS, JavaScript y actualmente estoy aprendiendo React.</p>
+      </section>
 
-    <img src="https://cdn-icons-png.flaticon.com/512/6326/6326055.png" alt="Imagen de Perfil">
+      <!-- Contenido secundario, complementario (barra lateral) -->
+      <aside>
+        <h2>Enlaces rápidos</h2>
+        <p>Sigue mi trabajo en otras plataformas:</p>
+        <ul>
+          <li><a href="">GitHub</a></li>
+          <li><a href="">LinkedIn</a></li>
+          <li><a href="">Twitter</a></li>
+        </ul>
+        <p>También puedes ver mi CV o descargarlo en PDF.</p>
+        <a href="">Descargar CV</a>
+      </aside>
 
-    <button id="BtnMensaje">Mostrar Mensaje</button>
-    <script src="js/funciones.js"></script> 
+      <!-- Sección de proyectos destacados -->
+      <section id="proyectos">
+        <h2>Proyectos Destacados</h2>
+
+        <!-- Cada artículo representa un proyecto -->
+        <article>
+          <h3>Gestor de Tareas</h3>
+          <p>Una app web para organizar tus tareas diarias. Incluye autenticación y guardado en la nube.</p>
+        </article>
+
+        <article>
+          <h3>Blog con Markdown</h3>
+          <p>Un blog ligero y fácil de usar que permite escribir artículos en formato Markdown.</p>
+        </article>
+      </section>
+
+      <!-- Sección del blog o publicaciones -->
+      <section id="blog">
+        <h2>Últimas Publicaciones</h2>
+
+        <article>
+          <h3>¿Por qué usar HTML semántico?</h3>
+          <p>Aprende cómo mejorar la accesibilidad y el SEO de tu sitio usando las etiquetas semánticas de HTML5.</p>
+          <a href="#">Leer más</a>
+        </article>
+      </section>
+
+      <!-- Sección de contacto con un formulario -->
+      <section id="contacto">
+        <h2>Contacto</h2>
+
+        <!-- Formulario para enviar un mensaje -->
+        <form>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+
+    </main>
+
+    <!-- Pie de página con derechos de autor -->
+    <footer>
+      <p>© 2025 Kevin Añazco. Todos los derechos reservados.</p>
+    </footer>
+  </div>
+
+</body>
 </html>
